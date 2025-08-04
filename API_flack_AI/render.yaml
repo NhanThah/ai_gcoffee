@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: flask-sqlserver-app
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: DB_PASSWORD
+        value: Thanh123@
