@@ -1,6 +1,7 @@
-Flask
+flask
 flask-restx
-pyodbc
 pandas
+pyodbc
 requests
 google-generativeai
+gunicorn
